@@ -1,0 +1,88 @@
+body
+{
+    background: #232323;
+}
+h1
+{
+    margin: 0px;
+    font-size: 80px;
+
+}
+h3
+{
+    margin: 0px;
+    font-size: 40;
+    font-weight: normal;
+}
+nav
+{
+    background-color: white;
+}
+.jumbotron
+{
+	color: white;
+	background-color: #3387CE;
+	margin-bottom: 0px;
+}	
+#a
+{
+	margin-left:140px;
+    outline: none;
+} 
+#b
+{
+    margin-left: 32%;
+    outline: none;
+}  
+#c
+{  
+    outline: none;
+}  
+#d
+{
+	margin-left: 130px;
+}
+.square
+{
+	width: 20%;
+    padding-bottom: 20%;
+	background: purple;
+	margin:2.66%;
+	float: left;
+	border-radius: 25%;
+	transition: background 0.6s; 
+	-webkit-transition: background 0.6s; 
+	-moz-transition: background 0.6s; 
+} 
+.container
+{
+	max-width: 900px;
+	margin-left: 410px;
+}
+button
+{
+	border:none;
+	color: blue;
+    background-color: white;
+	transition:all 0.6s;
+	-webkit-transition: all 0.6s; 
+	-moz-transition: all 0.6s; 
+	border-radius: 50%; 
+}
+#b:hover{
+	background-color: steelblue;
+	color: white;
+}
+#a:hover{
+	background-color: steelblue;
+	color: white;
+}
+#c:hover{
+	background-color: steelblue;
+	color: white;
+}
+.selected
+{
+    background: steelblue;
+    color: white;
+}
